@@ -61,7 +61,7 @@ ARGS="
 
 # UA-POT Specifics
 if [ "$MODE" == "ua_pot" ]; then
-    ARGS="$ARGS --ot-alpha 0.05 --ot-reg 0.05 --ot-mass 0.8"
+    ARGS="$ARGS --ot-alpha 0.01 --ot-reg 0.02 --ot-mass 0.8"
 elif [ "$MODE" == "simple_pot" ]; then
     ARGS="$ARGS --ot-alpha 0.0 --ot-reg 0.05 --ot-mass 0.8"
 fi
